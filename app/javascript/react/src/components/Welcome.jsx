@@ -3,7 +3,7 @@ import * as ReactDOM from 'react-dom'
 
 const Welcome = () => {
   return(
-    <div className="containe">
+    <div className="container">
       <h1>Welcome to Rails with React Question List</h1>
       <p className="lead"><em>by Tshepo Gladwin Ramantso</em></p>
     </div>
