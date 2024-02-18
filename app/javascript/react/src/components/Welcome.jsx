@@ -1,5 +1,6 @@
 import * as React from 'react'
 import * as ReactDOM from 'react-dom/client'
+import QuestionList from './QuestionsList'
 
 
 const Welcome = () => {
@@ -7,7 +8,7 @@ const Welcome = () => {
     <div className="container">
       <h1>Welcome to Rails with React Question List</h1>
       <p className="lead"><em>by Tshepo Gladwin Ramantso</em></p>
-
+      <QuestionList />
     </div>
   )
 }
